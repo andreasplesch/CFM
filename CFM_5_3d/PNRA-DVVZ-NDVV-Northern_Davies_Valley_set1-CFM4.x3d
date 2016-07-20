@@ -1,0 +1,28 @@
+<x3d>
+  <Scene>
+    <Shape DEF="PNRA-DVVZ-NDVV-Northern_Davies_Valley_set1-CFM4">
+      <Appearance>
+         <Material diffuseColor="0 0 1" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+4 3 2 -1
+5 3 4 -1
+3 1 2 -1
+2 1 0 -1
+">
+        <geoCoordinate point=" 
+590083.53125 3618884.09375 -7343.60009765625
+590322.953125 3618884.09375 -6507.67236328125
+588800.3359375 3620642.46875 -7343.60009765625
+590322.953125 3619890.90625 -3942.39990234375
+588800.3359375 3621967.96875 -3966.31591796875
+588807.1875 3621967.96875 -3942.39990234375
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

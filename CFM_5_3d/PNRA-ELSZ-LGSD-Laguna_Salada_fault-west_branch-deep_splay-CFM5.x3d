@@ -1,0 +1,28 @@
+<x3d>
+  <Scene>
+    <Shape DEF="PNRA-ELSZ-LGSD-Laguna_Salada_fault-west_branch-deep_splay-CFM5">
+      <Appearance>
+         <Material diffuseColor="0.6 0.192157 0.8" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+3 1 2 -1
+5 3 4 -1
+2 1 0 -1
+4 3 2 -1
+">
+        <geoCoordinate point=" 
+599627.9296875 3618541.8125 -10914.150390625
+602507.734375 3615375.34375 -10914.150390625
+599547.40625 3618541.8125 -9654.1123046875
+602507.734375 3615187.125 -8235.7275390625
+599547.40625 3618160.15625 -4222.85009765625
+602251.2890625 3615187.125 -4222.85009765625
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

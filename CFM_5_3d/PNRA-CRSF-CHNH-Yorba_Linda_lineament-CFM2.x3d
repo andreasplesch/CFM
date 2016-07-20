@@ -1,0 +1,30 @@
+<x3d>
+  <Scene>
+    <Shape DEF="PNRA-CRSF-CHNH-Yorba_Linda_lineament-CFM2">
+      <Appearance>
+         <Material diffuseColor="1 0.647059 0" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+4 0 2 -1
+2 1 3 -1
+0 1 2 -1
+5 0 4 -1
+1 6 3 -1
+">
+        <geoCoordinate point=" 
+433445.96875 3754730 304
+417721.59375 3746820.75 56
+431783.8125 3753894 -13136.615234375
+420684.4375 3748311 -12487.037109375
+432761.53125 3754385.75 -13193.8359375
+433445.96875 3754730 -13329.9521484375
+417721.59375 3746820.75 -12916.638671875
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

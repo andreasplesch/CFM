@@ -1,0 +1,28 @@
+<x3d>
+  <Scene>
+    <Shape DEF="PNRA-NIRC-OCNS-Newport-Inglewood_fault-RC_link-CFM2">
+      <Appearance>
+         <Material diffuseColor="0.933333 0.509804 0.933333" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+4 0 2 -1
+2 1 3 -1
+1 5 3 -1
+0 1 2 -1
+">
+        <geoCoordinate point=" 
+455724.875 3672985.25 -7201.27685546875
+457185.40625 3670433.5 -6843.88916015625
+454663 3675782 -85
+460384.46875 3665578.75 -307
+454559.84375 3673999.5 -7473.2724609375
+461466.1875 3664324.25 -5813.9482421875
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

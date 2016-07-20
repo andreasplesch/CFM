@@ -1,0 +1,24 @@
+<x3d>
+  <Scene>
+    <Shape DEF="PNRA-CRSF-YUHA-Yuha_Well_fault-north_set1-CFM5">
+      <Appearance>
+         <Material diffuseColor="0 0 1" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+2 0 1 -1
+3 2 1 -1
+">
+        <geoCoordinate point=" 
+603529.9921875 3619039.21875 -5454
+603740.7109375 3619649.46875 -5454
+603503.1796875 3619039.21875 -3419
+603740.7109375 3619727.09375 -3419
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

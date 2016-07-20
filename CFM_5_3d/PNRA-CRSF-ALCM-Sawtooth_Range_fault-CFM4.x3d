@@ -1,0 +1,28 @@
+<x3d>
+  <Scene>
+    <Shape DEF="PNRA-CRSF-ALCM-Sawtooth_Range_fault-CFM4">
+      <Appearance>
+         <Material diffuseColor="1 0.647059 0" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+4 3 2 -1
+5 4 1 -1
+5 1 0 -1
+4 2 1 -1
+">
+        <geoCoordinate point=" 
+554988.9375 3649729.875 -14730
+554614.984375 3649729.875 -6922.78515625
+554614.984375 3650325.875 0
+558212.125 3656791.40625 0
+558523.2109375 3656791.40625 -6494.677734375
+558523.2109375 3656082.40625 -14730
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

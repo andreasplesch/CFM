@@ -1,0 +1,28 @@
+<x3d>
+  <Scene>
+    <Shape DEF="PNRA-CEPS-PHLS-Lower_Elysian_Park_fault-CFM1">
+      <Appearance>
+         <Material diffuseColor="0.282353 0.239216 0.545098" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+1 2 3 -1
+1 0 2 -1
+4 2 5 -1
+3 2 4 -1
+">
+        <geoCoordinate point=" 
+377547.8125 3769008.5 -10000
+387381.03125 3783544.5 -16387.568359375
+395897.8125 3759288.5 -10000
+404468.75 3772320.75 -16445.47265625
+422754.46875 3759973 -14619.9580078125
+412100.4375 3746297.5 -10000.0029296875
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

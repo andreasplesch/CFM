@@ -1,0 +1,28 @@
+<x3d>
+  <Scene>
+    <Shape DEF="CRFA-LMPZ-WEST-Lompoc_blind_ramp-CFM5">
+      <Appearance>
+         <Material diffuseColor="0.690196 0.768627 0.870588" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+0 4 1 -1
+2 1 3 -1
+0 1 2 -1
+2 3 5 -1
+">
+        <geoCoordinate point=" 
+164308.5625 3857290.6875 -7496.68994140625
+173864.15625 3845819.34375 -14002.828125
+177107.75 3853254.90625 -7359.30859375
+178672.46875 3844321.390625 -13952.103515625
+161064.9375 3849855.125 -14140.2099609375
+181916.0625 3851756.953125 -7308.5830078125
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

@@ -1,0 +1,26 @@
+<x3d>
+  <Scene>
+    <Shape DEF="CRFA-OCNZ-SLCR-Oceanic_backthrust-CFM4">
+      <Appearance>
+         <Material diffuseColor="0 0 1" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+1 2 3 -1
+1 0 2 -1
+1 3 4 -1
+">
+        <geoCoordinate point=" 
+154114.1875 3935413.3125 -10036.0419921875
+125531.375 3959434.3125 -8276.3154296875
+155618.375 3939006.1875 -8642.314453125
+157749.625 3944103.8125 -2225.454345703125
+127461.8125 3963949.25 -3222.76953125
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

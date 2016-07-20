@@ -1,0 +1,28 @@
+<x3d>
+  <Scene>
+    <Shape DEF="GVFA-WWFZ-EAST-Scodie_Lineament-CFM1">
+      <Appearance>
+         <Material diffuseColor="0 0 1" >
+         </Material>
+      </Appearance>
+      <IndexedFaceSet solid="false" 
+        coordIndex=" 
+3 0 2 -1
+0 4 1 -1
+5 3 2 -1
+0 1 2 -1
+">
+        <geoCoordinate point=" 
+399811.84375 3948138 -7000
+404500.5625 3949874.5 -12862.9267578125
+405308.5 3950775.5 -12885.048828125
+409128.34375 3958683.75 -7000
+401453.71875 3946495.75 -12747.6845703125
+410852.8125 3956959 -13036.85546875
+" 
+ geoSystem='"UTM" "Z11" "N" "CC" "easting_first"'>
+        </geoCoordinate>
+      </IndexedFaceSet>
+    </Shape>
+  </Scene>
+</x3d>

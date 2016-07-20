@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta charset="utf-8">
+    <title>CFM5 for Oculus Rift DK2</title>
+    <link rel="stylesheet" type="text/css" href="x3dom.css">
+    <script type="text/javascript" src="x3dom.debug.js"></script>
+    <script type="text/javascript" src="AP5Geospatial.js"></script>
+    <style>
+      #x3dscene {
+        background-color: black;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height: 100%
+        border: 0px
+        padding: 0px;
+      }
+    </style>
+</head>
+
+<body style='width:100%; height:100%; border:0; margin:0; padding:0;'>
+<!--
+<h3>CFM 5</h3>
+  
+<p>These are the best fault representations in CFM 5. Double-click on a fault to see its name in the status window below.</p>
+-->
+<x3d id="x3dscene">
+    <param name="showLog" value="false"></param>
+    <param name="showStat" value="false"></param>
+    <Scene id="scene">
+        <Environment frustumCulling="false"></Environment>
+        
+        <Viewpoint position="-2722636.06926 -5180908.99631 3331527.23075" orientation="0.94106 -0.25424 -0.22310 1.95795" centerofRotation="-2477532.0296007814 -4654713.537807695 3570734.8012328157" description="default" zNear="100" zFar="3000000
+        "></Viewpoint>
+        <background DEF='bgnd' skyColor="0 0 0"></background>
+        <group id='root' render='false'>
+            <group DEF='theScene'>
+        <!-- the x3d content to rendered to both eyes -->
+        <inline url="cal_outline.x3d"></inline>
+        <inline url="QuaternaryFaults_CA_utm11nad27_scal2.x3d"></inline>
+      <!-- add fault inlines here -->
+<inline url="BNRA-BMFZ-MULT-Black_Mountain_fault-CFM3.x3d"></inline>
+<inline url="BNRA-NDVZ-MULT-Northern_Death_Valley_fault-CFM2.x3d"></inline>
+<inline url="BNRA-SDVZ-MULT-Southern_Death_Valley_fault-vertical-CFM3.x3d"></inline>
+<inline url="CRFA-BPPM-EAST-Big_Pine_fault-CFM4.x3d"></inline>
+<inline url="CRFA-BPPM-LCKV-Lockwood_Valley_fault-CFM2.x3d"></inline>
+<inline url="CRFA-BPPM-PMTS-Pine_Mountain_fault-CFM2.x3d"></inline>
+<inline url="CRFA-BPPM-WEST-Big_Pine_fault-CFM2.x3d"></inline>
+<inline url="CRFA-CSBL-CSML-Casmalia_fault-CFM4.x3d"></inline>
+<inline url="CRFA-CSBL-LALM-Los_Alamos_fault-steep-CFM5.x3d"></inline>
+<inline url="CRFA-CSBL-ORCT-Orcutt_blind_fault-CFM5.x3d"></inline>
+<inline url="CRFA-CSBL-PEZN-Pezzoni_Casmalia_fault-truncated-CFM5.x3d"></inline>
+<inline url="CRFA-CSBL-ZACA-Zaca_blind_fault-CFM5.x3d"></inline>
+<inline url="CRFA-LMPZ-EAST-Lompoc_blind_ramp-CFM5.x3d"></inline>
+<inline url="CRFA-LMPZ-WEST-Lompoc_blind_ramp-CFM5.x3d"></inline>
+<inline url="CRFA-LNHZ-MULT-Lions_Head_fault-CFM4.x3d"></inline>
+<inline url="CRFA-LOSO-LSOS-Los_Osos_fault-CFM4.x3d"></inline>
+<inline url="CRFA-LPNZ-MULT-La_Panza_fault-CFM4.x3d"></inline>
+<inline url="CRFA-NAFZ-MULT-Nacimiento_fault-south-CFM2.x3d"></inline>
+<inline url="CRFA-OCNZ-SLCR-Oceanic_backthrust-CFM4.x3d"></inline>
+<inline url="CRFA-OCNZ-SLCR-Oceanic_fault-CFM4.x3d"></inline>
+<inline url="CRFA-REHZ-EHSN-East_Huasna_fault-CFM4.x3d"></inline>
+<inline url="CRFA-REHZ-MULT-Rinconada_fault-CFM4.x3d"></inline>
+<inline url="CRFA-SCFZ-SCYM-South_Cuyama_fault-CFM3.x3d"></inline>
+<inline url="CRFA-SJMZ-MRLS-Morales_fault-CFM3.x3d"></inline>
+<inline url="CRFA-SLRS-MULT-San_Luis_Range_fault_system-CFM4.x3d"></inline>
+<inline url="CRFA-SLRS-SHRL-Shoreline_fault-CFM4.x3d"></inline>
+<inline url="CRFA-SLRS-SLBS-San_Luis_Bay_fault-CFM4.x3d"></inline>
+<inline url="CRFA-SLRS-SYNV-Santa_Ynez_Valley_blind_fault-CFM5.x3d"></inline>
+<inline url="ETRA-BBFS-1992-Big_Bear_rupture-CFM2.x3d"></inline>
+<inline url="ETRA-BCFZ-MULT-Blue_Cut_fault-CFM2.x3d"></inline>
+<inline url="ETRA-CLHS-NCHS-Grass_Valley_fault-steep-CFM5.x3d"></inline>
+<inline url="ETRA-CLHS-SBMT-Tunnel_Ridge-Arrastre_Canyon_fault-steep-CFM5.x3d"></inline>
+<inline url="ETRA-CLHS-SCHS-Cleghorn_fault-steep-CFM5.x3d"></inline>
+<inline url="ETRA-LSBM-1992-Joshua_Tree_sequence-CFM5.x3d"></inline>
+<inline url="ETRA-LSBM-LGCS-Long_Canyon_fault-CFM5.x3d"></inline>
+<inline url="ETRA-LSBM-MULT-Burnt_Mountain-East_Wide_Canyon_fault-CFM5.x3d"></inline>
+<inline url="ETRA-LSBM-MULT-Eureka_Peak-West_Deception_Canyon_fault-CFM5.x3d"></inline>
+<inline url="ETRA-NFTS-DTMT-Deep_detachment-CFM5.x3d"></inline>
+<inline url="ETRA-NFTS-EAST-Eastern_North_Frontal_fault-vertical-CFM5.x3d"></inline>
+<inline url="ETRA-NFTS-EAST-North_Frontal_Thrust_fault-linked-CFM5.x3d"></inline>
+<inline url="ETRA-NFTS-WEST-North_Frontal_Thrust_fault-lowdip-CFM5.x3d"></inline>
+<inline url="ETRA-PMFZ-MRVS-Morongo_Valley_fault-CFM5.x3d"></inline>
+<inline url="ETRA-PMFZ-MULT-Pinto_Mountain_fault-CFM5.x3d"></inline>
+<inline url="GRFS-GRFZ-EAST-Garlock_fault-CFM5.x3d"></inline>
+<inline url="GRFS-GRFZ-EAST-Owl_Lake_fault-CFM5.x3d"></inline>
+<inline url="GRFS-GRFZ-WEST-Garlock_fault-CFM5.x3d"></inline>
+<inline url="GVFA-KRCS-KRCN-Kern_Canyon_fault-CFM5.x3d"></inline>
+<inline url="GVFA-KRCS-LISA-Lake_Isabella_lineament-CFM2.x3d"></inline>
+<inline url="GVFA-PLFZ-MULT-Pleito_fault-CFM2.x3d"></inline>
+<inline url="GVFA-TDRS-COAL-Coalinga_blind_fault-CFM2.x3d"></inline>
+<inline url="GVFA-TDRS-KTLM-Kettleman_Hills_blind_fault-North_Dome-CFM2.x3d"></inline>
+<inline url="GVFA-TDRS-LSTH-Lost_Hills_blind_fault-CFM2.x3d"></inline>
+<inline url="GVFA-WWFZ-EAST-Scodie_Lineament-CFM1.x3d"></inline>
+<inline url="GVFA-WWFZ-MULT-White_Wolf_fault-CFM1.x3d"></inline>
+<inline url="MJVA-BWFZ-MULT-Blackwater_fault-CFM1.x3d"></inline>
+<inline url="MJVA-CHFZ-MULT-Calico-Hidalgo_fault-CFM1.x3d"></inline>
+<inline url="MJVA-CREC-CMPR-Camp_Rock_fault-CFM5.x3d"></inline>
+<inline url="MJVA-CREC-CPMT-Copper_Mountain_fault-CFM5.x3d"></inline>
+<inline url="MJVA-CREC-EMRS-Emerson_fault-CFM5.x3d"></inline>
+<inline url="MJVA-CREC-EMRS-Galway_Lake_fault-CFM2.x3d"></inline>
+<inline url="MJVA-CREC-EMRS-North_Emerson_fault-CFM3.x3d"></inline>
+<inline url="MJVA-CRSF-CADY-Cady_fault-CFM1.x3d"></inline>
+<inline url="MJVA-CRSF-GNTM-McLean_Lake-Drinkwater_Lake_fault-CFM1.x3d"></inline>
+<inline url="MJVA-CRSF-GNTM-Nelson_Lake_fault-CFM1.x3d"></inline>
+<inline url="MJVA-CRSF-MANX-Manix_fault-CFM1.x3d"></inline>
+<inline url="MJVA-CRSF-TFMT-Coyote_Canyon_fault-CFM1.x3d"></inline>
+<inline url="MJVA-ECSZ-1992-Barstow_Trend-CFM5.x3d"></inline>
+<inline url="MJVA-ECSZ-1992-Landers_rupture_detailed_splays-CFM3.x3d"></inline>
+<inline url="MJVA-ECSZ-1999-Hector_Mine_rupture_dipping-CFM2.x3d"></inline>
+<inline url="MJVA-GLPS-GLDS-Goldstone_Lake_fault-CFM1.x3d"></inline>
+<inline url="MJVA-GLPS-PRDS-Paradise_fault-CFM1.x3d"></inline>
+<inline url="MJVA-HPFZ-MULT-Gravel_Hills-Harper_Lake_fault-CFM1.x3d"></inline>
+<inline url="MJVA-HSLZ-MULT-Helendale-South_Lockhart_fault-CFM5.x3d"></inline>
+<inline url="MJVA-HSLZ-SBMT-Pipes_Canyon_fault-CFM5.x3d"></inline>
+<inline url="MJVA-HSLZ-SBMT-Pipes_Canyon_fault-north-extension-CFM5.x3d"></inline>
+<inline url="MJVA-HSLZ-SBMT-Southern_Helendale_fault-CFM5.x3d"></inline>
+<inline url="MJVA-JVFZ-MULT-Johnson_Valley_fault-CFM3.x3d"></inline>
+<inline url="MJVA-JVFZ-SJVS-Kickapoo_fault-CFM3.x3d"></inline>
+<inline url="MJVA-JVHZ-HMSV-Homestead_Valley_fault-CFM3.x3d"></inline>
+<inline url="MJVA-LCLZ-LDLW-Ludlow_fault-CFM1.x3d"></inline>
+<inline url="MJVA-LLBM-MULT-Lavic_Lake-North_West_Bullion_fault-CFM2.x3d"></inline>
+<inline url="MJVA-LWLZ-MULT-Lenwood-Lockhart_fault-CFM5.x3d"></inline>
+<inline url="MJVA-NEMV-GRLS-Garlic_Springs_fault-CFM1.x3d"></inline>
+<inline url="MJVA-NEMV-RDPS-Red_Pass_fault-CFM1.x3d"></inline>
+<inline url="MJVA-PBMZ-MULT-Pisgah_Bullion_Mesquite_Lake_fault-CFM3.x3d"></inline>
+<inline url="OCBA-CBFZ-CRBS-Coronado_Bank_east_splay-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-CBFZ-CRBS-Coronado_Bank_fault-north-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-CBFZ-CRBS-Coronado_Bank_fault-south-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-CBFZ-CRBS-Coronado_Bank_west_splay-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-CBKD-CRBS-Coronado_Bank_detachment-upper-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-CBKD-OCNS-Coronado_Bank_detachment-upper-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-CRFS-RDNC-Redondo_Canyon_fault-ZION-CFM2.x3d"></inline>
+<inline url="OCBA-DSCZ-DSCS-Descanso_fault-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-DSCZ-DSCS-Descanso_fault-east_splay-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-DSCZ-DSCS-Descanso_fault-west_splay-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-ESCS-ESCB-East_Santa_Cruz_Basin_fault-A-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-ESCS-ESCB-East_Santa_Cruz_Basin_fault-B-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-ESCS-ESCB-East_Santa_Cruz_Basin_fault-D-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-ESCS-ESCB-East_Santa_Cruz_Basin_fault-E-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-ESCS-ESCB-East_Santa_Cruz_Basin_fault-main-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-FRFZ-SRRS-Ferrelo_fault-upper-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-IBFS-TMBK-Thirty_Mile_Bank_detachment-upper-RVRO-CFM1.x3d"></inline>
+<inline url="OCBA-OCSD-OCNS-Oceanside_detachment-RVRO-CFM1.x3d"></inline>
+<inline url="OCBA-PVFZ-MULT-Palos_Verdes_fault-CFM2.x3d"></inline>
+<inline url="OCBA-SCCR-MULT-Santa_Cruz-Catalina_Ridge_fault-CFM5.x3d"></inline>
+<inline url="OCBA-SCFZ-CTLB-San_Clemente_fault-splay-CFM5.x3d"></inline>
+<inline url="OCBA-SCFZ-SBRI-San_Clemente_fault_strand-CFM5.x3d"></inline>
+<inline url="OCBA-SCFZ-SCBR-San_Clemente_fault-LEGG-CFM5.x3d"></inline>
+<inline url="OCBA-SCFZ-SCLI-San_Clemente_fault-LEGG-CFM5.x3d"></inline>
+<inline url="OCBA-SDTZ-30MB-San_Diego_Trough_fault-LEGG-CFM5.x3d"></inline>
+<inline url="OCBA-SDTZ-CTLB-San_Diego_Trough_fault-LEGG-CFM5.x3d"></inline>
+<inline url="OCBA-SMCS-MULT-San_Mateo-Carlsbad_fault-SRLN-CFM5.x3d"></inline>
+<inline url="OCBA-SPBZ-NTHS-San_Pedro_Basin_fault-north-CFM5.x3d"></inline>
+<inline url="OCBA-SPBZ-STHS-San_Pedro_Basin_fault-south-LEGG-CFM5.x3d"></inline>
+<inline url="OCCA-HSFZ-MULT-Hosgri-San_Simeon_fault-CFM1.x3d"></inline>
+<inline url="PNRA-ATEV-AGCT-Agua_Caliente_fault_zone-CFM4.x3d"></inline>
+<inline url="PNRA-ATEV-EQVS-Earthquake_Valley_fault-east-CFM4.x3d"></inline>
+<inline url="PNRA-ATEV-EQVS-Earthquake_Valley_fault-main-CFM4.x3d"></inline>
+<inline url="PNRA-ATEV-EQVS-Earthquake_Valley_fault-west-CFM4.x3d"></inline>
+<inline url="PNRA-ATEV-MRHS-Hot_Springs_fault_CFM4.x3d"></inline>
+<inline url="PNRA-ATEV-MRHS-Murrieta-Hotsprings_fault-CFM4.x3d"></inline>
+<inline url="PNRA-CEPS-BLDH-Compton-Los_Alamitos_fault-CFM2.x3d"></inline>
+<inline url="PNRA-CEPS-LABS-Anaheim_fault-CFM1.x3d"></inline>
+<inline url="PNRA-CEPS-LABS-Compton-Los_Alamitos_fault-CFM2.x3d"></inline>
+<inline url="PNRA-CEPS-PHLS-Lower_Elysian_Park_fault-CFM1.x3d"></inline>
+<inline url="PNRA-CRSF-ALCM-Sawtooth_Range_fault-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-CHNH-Yorba_Linda_lineament-CFM2.x3d"></inline>
+<inline url="PNRA-CRSF-CYMT-Devils_Canyon_fault-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-EMCP-El_Mayor-Cucapah_normal_fault-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-EMCP-El_Mayor-Cucapah_west_fault-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-OCOT-Ocotillo_fault-CFM5.x3d"></inline>
+<inline url="PNRA-CRSF-OCOT-Ocotillo_set1-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-OCOT-Ocotillo_set2-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-OCOT-Ocotillo_set3-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-OCOT-Ocotillo_set4-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-OCOT-Ocotillo_set5-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-PGWS-Painted_Gorge_Wash_fault-CFM4.x3d"></inline>
+<inline url="PNRA-CRSF-USAV-Fontana_Seismicity_lineament-CFM1.x3d"></inline>
+<inline url="PNRA-CRSF-YUHA-Shell_Beds_fault-CFM5.x3d"></inline>
+<inline url="PNRA-CRSF-YUHA-Yuha_Wash_fault-CFM5.x3d"></inline>
+<inline url="PNRA-CRSF-YUHA-Yuha_Well-Vista_del_Anza_fault-truncated-CFM5.x3d"></inline>
+<inline url="PNRA-CRSF-YUHA-Yuha_Well_fault-CFM5.x3d"></inline>
+<inline url="PNRA-CRSF-YUHA-Yuha_Well_fault-north_set1-CFM5.x3d"></inline>
+<inline url="PNRA-CRSF-YUHA-Yuha_Well_fault-northwest-steep-CFM5.x3d"></inline>
+<inline url="PNRA-CRSF-YUHA-Yuha_Well_fault-west-steep-CFM5.x3d"></inline>
+<inline url="PNRA-CRSF-YUHA-Yuha_fault-CFM5.x3d"></inline>
+<inline url="PNRA-CSTL-SJQH-San_Joaquin_Hills_fault-truncated-CFM3.x3d"></inline>
+<inline url="PNRA-DVVZ-DVSV-Davies_Valley_fault-CFM5.x3d"></inline>
+<inline url="PNRA-DVVZ-NDVV-Northern_Davies_Valley_set1-CFM4.x3d"></inline>
+<inline url="PNRA-DVVZ-WDVV-West_Davies_Valley_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-CHNO-Chino_fault-Central_Ave-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-CHNO-Chino_fault-main-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-CYMT-Elsinore_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-GLIV-Glen_Ivy_North_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-GLIV-Glen_Ivy_South_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-INDV-Indiviso_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-INDV-Indiviso_fault-splay-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-JULN-Elsinore_fault-Wildomar-link-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-JULN-Elsinore_fault-north-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-JULN-Elsinore_fault-south-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-LGSD-Laguna_Salada_fault-east_branch-dipping-CFM5.x3d"></inline>
+<inline url="PNRA-ELSZ-LGSD-Laguna_Salada_fault-east_branch-dipping-splay-CFM5.x3d"></inline>
+<inline url="PNRA-ELSZ-LGSD-Laguna_Salada_fault-north-CFM5.x3d"></inline>
+<inline url="PNRA-ELSZ-LGSD-Laguna_Salada_fault-south-CFM5.x3d"></inline>
+<inline url="PNRA-ELSZ-LGSD-Laguna_Salada_fault-west_branch-center-CFM5.x3d"></inline>
+<inline url="PNRA-ELSZ-LGSD-Laguna_Salada_fault-west_branch-deep_splay-CFM5.x3d"></inline>
+<inline url="PNRA-ELSZ-LGSD-Laguna_Salada_fault-west_branch-east-CFM5.x3d"></inline>
+<inline url="PNRA-ELSZ-LGSD-Laguna_Salada_fault-west_branch-west-CFM5.x3d"></inline>
+<inline url="PNRA-ELSZ-SRCP-Borrego_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-SRCP-Paso_Inferior_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-SRCP-Paso_Superior_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-SRCP-Pescadores_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-SRCP-Sierra_Cucapah_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-TMCL-Wildomar_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-TMCL-Willard_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-WHIT-East_Montebello_fault-CFM3.x3d"></inline>
+<inline url="PNRA-ELSZ-WHIT-Whittier_Heights_fault-CFM1.x3d"></inline>
+<inline url="PNRA-ELSZ-WHIT-Whittier_fault-CFM4.x3d"></inline>
+<inline url="PNRA-ELSZ-WHIT-Workman_Hill_fault-CFM1.x3d"></inline>
+<inline url="PNRA-ELSZ-YUHA-Sierra_Cucapah_fault-NW_splay-CFM5.x3d"></inline>
+<inline url="PNRA-ELSZ-YUHA-Sierra_Cucapah_fault-blind-north-CFM5.x3d"></inline>
+<inline url="PNRA-NIRC-LABS-Newport-Inglewood_fault-split-CFM2.x3d"></inline>
+<inline url="PNRA-NIRC-OCNS-Newport-Inglewood_fault-RC_link-CFM2.x3d"></inline>
+<inline url="PNRA-NIRC-OFFS-Newport-Inglewood_fault-CFM2.x3d"></inline>
+<inline url="PNRA-NIRC-RSCN-Rose_Canyon_fault-CFM2.x3d"></inline>
+<inline url="PNRA-SJFZ-ANZA-Buck_Ridge_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-ANZA-Clark_fault-north-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-ANZA-Clark_fault-south-east-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-ANZA-Clark_fault-south-main-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-ANZA-Clark_fault-south-west-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-ANZA-Clark_fault-south-west-link-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-ANZA-Hot_Springs-Buck_Ridge_link-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-BRMT-Coyote_Creek_blind_fault-northeast-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-BRMT-Coyote_Creek_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-CYTC-Coyote_Creek_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-CYTC-Coyote_Creek_fault-center-east_splay-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-IMPV-Dixieland_fault-CFM5.x3d"></inline>
+<inline url="PNRA-SJFZ-IMPV-Weinert_El_Centro_fault-CFM5.x3d"></inline>
+<inline url="PNRA-SJFZ-IMPV-Weinert_Superstition_Hills_link-CFM5.x3d"></inline>
+<inline url="PNRA-SJFZ-SBRN-Glen_Helen_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SBRN-Loma_Linda_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SBRN-Lytle_Creek_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SBRN-Rialto-Colton_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SBRN-San_Jacinto-Claremont_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SJCV-Casa_Loma_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SJCV-Claremont_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SJCV-Hot_Springs_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SJCV-Hot_Springs_fault-west-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SJCV-San_Jacinto-Claremont_fault-east-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SSHS-Superstition_Hills_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SSMT-Superstition_Mountain_fault-CFM4.x3d"></inline>
+<inline url="PNRA-SJFZ-SSMT-West_Mesa_fault-CFM5.x3d"></inline>
+<inline url="SAFS-MHFZ-LSBM-Berdoo_Canyon_fault-CFM4.x3d"></inline>
+<inline url="SAFS-MHFZ-LSBM-Indio_Hills_fault-CFM4.x3d"></inline>
+<inline url="SAFS-MHFZ-MCHS-Hidden_Springs_fault-CFM4.x3d"></inline>
+<inline url="SAFS-MHFZ-MCHS-Mecca_Hills_fault-CFM4.x3d"></inline>
+<inline url="SAFS-MHFZ-MCHS-Painted_Canyon_fault-CFM4.x3d"></inline>
+<inline url="SAFS-MHFZ-MULT-Mecca_Hills-Hidden_Springs_fault-deep-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-BSZS-Southern_San_Andreas_blind_extension-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-CLCZ-San_Andreas_fault-CHLM-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-CLCZ-San_Andreas_fault-CRRZ-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-COAV-Mission_Creek_fault_strand-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-COAV-North_Palm_Springs_fault-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-COAV-Southern_San_Andreas_fault-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-MJVS-San_Andreas_fault-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-MULT-Banning_fault_strand-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-MULT-Garnet_Hill_fault_strand-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-PARK-San_Andreas_fault-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-SBMT-Mill_Creek_fault_strand-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-SBMT-Mission_Creek_fault_strand-steep-CFM4.x3d"></inline>
+<inline url="SAFS-SAFZ-SBMT-San_Andreas_fault-CFM4.x3d"></inline>
+<inline url="SAFS-SGPR-CHFZ-Casa_Blanca_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-CHFZ-Chicken_Hill_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-CHFZ-Live_Oak_Canyon_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-CHFZ-Redlands_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-CHFZ-Reservoir_Canyon_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-CHFZ-Western_Heights_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-DTMT-San_Gorgonio_Pass_deep_detachment-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-DTMT-San_Gorgonio_Pass_midcrust_detachment-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-SBRN-Del_Rosa_cross_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-SBRN-San_Bernardino_cross_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-SGPS-San_Gorgonio_Pass_thrust-CFM4.x3d"></inline>
+<inline url="SAFS-SGPR-SJMT-Palm_Springs_blind_fault-CFM4.x3d"></inline>
+<inline url="SAFS-SGPR-SJMT-Potatochip1_blind_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-SJMT-Potatochip2_blind_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-SJMT-Potatochip4_blind_fault-CFM5.x3d"></inline>
+<inline url="SAFS-SGPR-SJMT-Potatochip5_blind_fault-CFM5.x3d"></inline>
+<inline url="SALT-BRSZ-BRFZ-Brawley_fault-CFM5.x3d"></inline>
+<inline url="SALT-CPFZ-CRPR-Cierro_Prieto_fault-CFM1.x3d"></inline>
+<inline url="SALT-CRSF-IMPV-Elmore_Ranch_fault-CFM1.x3d"></inline>
+<inline url="SALT-CRSF-IMPV-Extra_fault-CFM3.x3d"></inline>
+<inline url="SALT-CRSF-IMPV-Westmorland_fault-main-CFM4.x3d"></inline>
+<inline url="SALT-CRSF-IMPV-Westmorland_fault-splay-CFM4.x3d"></inline>
+<inline url="SALT-IMFZ-IMPV-Imperial_fault-Edip-Nend-CFM5.x3d"></inline>
+<inline url="SALT-IMFZ-IMPV-Imperial_fault-east-strand-south-CFM5.x3d"></inline>
+<inline url="SALT-IMFZ-IMPV-Imperial_fault-east_strand-north-CFM5.x3d"></inline>
+<inline url="SALT-IMFZ-IMPV-Imperial_fault-north_end-CFM5.x3d"></inline>
+<inline url="SNFA-AHTC-ASHH-Ash_Hill_fault-CFM2.x3d"></inline>
+<inline url="SNFA-AHTC-TANK-Tank_Canyon_fault-CFM2.x3d"></inline>
+<inline url="SNFA-HMFZ-MULT-Hunter_Mountain_fault-CFM1.x3d"></inline>
+<inline url="SNFA-LLFZ-CNTR-Little_Lake_fault-CFM1.x3d"></inline>
+<inline url="SNFA-OWFZ-1872-Owens_Valley_fault_rupture-CFM1.x3d"></inline>
+<inline url="SNFA-PMVZ-MULT-Panamint_Valley_fault-steep-CFM2.x3d"></inline>
+<inline url="SNFA-SNFZ-INDP-Independance_fault-CFM1.x3d"></inline>
+<inline url="SNFA-SNFZ-MULT-Independance-Sierra_Nevada_fault-CFM1.x3d"></inline>
+<inline url="WTRA-MRFS-MULT-Mission_Ridge-Arroyo_Parida_fault-dip-CFM5.x3d"></inline>
+<inline url="WTRA-NCVS-MULT-Southern_San_Cayetano-Ventura-Pitas_Point_fault-ramp_flat-HBRD-CFM5.x3d"></inline>
+<inline url="WTRA-NCVS-MULT-Southern_San_Cayetano-Ventura-Pitas_Point_fault-steep-JHAP-CFM5.x3d"></inline>
+<inline url="WTRA-NCVS-NCPP-North_Channel_fault-SRLN-CFM5.x3d"></inline>
+<inline url="WTRA-NCVS-PPTV-Pitas_Point_fault-CFM5.x3d"></inline>
+<inline url="WTRA-NCVS-PPTV-Pitas_Point_fault-HBRD-CFM5.x3d"></inline>
+<inline url="WTRA-NCVS-PPTV-Ventura-Pitas_Point_fault-link-CFM5.x3d"></inline>
+<inline url="WTRA-NCVS-RDMT-Red_Mountain_fault-east-CFM5.x3d"></inline>
+<inline url="WTRA-NCVS-VNTB-Ventura_fault-CFM5.x3d"></inline>
+<inline url="WTRA-ORFZ-OFFS-Mid-Channel_fault-SRLN-CFM4.x3d"></inline>
+<inline url="WTRA-ORFZ-OFFS-Oak_Ridge_fault-MRSH-CFM5.x3d"></inline>
+<inline url="WTRA-ORFZ-SFNV-Northridge-Frew_fault-CFM2.x3d"></inline>
+<inline url="WTRA-ORFZ-VNTB-Oak_Ridge_fault-MRSH-CFM5.x3d"></inline>
+<inline url="WTRA-PHTS-COYT-Puente_Hills_Thrust_fault-CFM2.x3d"></inline>
+<inline url="WTRA-PHTS-LABS-Las_Cienagas_fault-truncated-CFM1.x3d"></inline>
+<inline url="WTRA-PHTS-LABS-Puente_Hills_thrust_fault-CFM1.x3d"></inline>
+<inline url="WTRA-PHTS-LABS-San_Vicente_fault-CFM1.x3d"></inline>
+<inline url="WTRA-PHTS-LABS-Upper_Elysian_Park_fault-CFM1.x3d"></inline>
+<inline url="WTRA-PHTS-PRTH-Peralta_Hills_fault-CFM1.x3d"></inline>
+<inline url="WTRA-PHTS-RICH-Puente_Hills_thrust_fault-CFM2.x3d"></inline>
+<inline url="WTRA-PHTS-STFS-Puente_Hills_thrust_fault-CFM2.x3d"></inline>
+<inline url="WTRA-SBTS-ANCP-Anacapa-Dume_fault-CFM3.x3d"></inline>
+<inline url="WTRA-SBTS-MULT-Channel_Islands_thrust_fault-SHAW-CFM1.x3d"></inline>
+<inline url="WTRA-SBTS-SMNB-Santa_Monica_Bay_fault-CFM3.x3d"></inline>
+<inline url="WTRA-SCFZ-MULT-San_Cayetano_fault-60dip-CFM5.x3d"></inline>
+<inline url="WTRA-SCFZ-SCVA-Del_Valle_fault-CFM1.x3d"></inline>
+<inline url="WTRA-SCFZ-SCVA-Holser_fault-CFM1.x3d"></inline>
+<inline url="WTRA-SFFS-ANCP-Malibu_Coast_fault-west-steep-alt2-CFM5.x3d"></inline>
+<inline url="WTRA-SFFS-LABS-Hollywood_fault-CFM5.x3d"></inline>
+<inline url="WTRA-SFFS-LABS-North_Salt_Lake_blind_fault-CFM3.x3d"></inline>
+<inline url="WTRA-SFFS-SGVS-Raymond_fault-extended-CFM5.x3d"></inline>
+<inline url="WTRA-SFFS-SMMT-Malibu_Coast_fault-east-steep-alt2-CFM5.x3d"></inline>
+<inline url="WTRA-SFFS-SMMT-Santa_Monica_fault-steep-CFM5.x3d"></inline>
+<inline url="WTRA-SFFS-SNCZ-Santa_Cruz_Island_fault-CFM5.x3d"></inline>
+<inline url="WTRA-SFFS-SNRS-Santa_Rosa_Island_fault-CFM5.x3d"></inline>
+<inline url="WTRA-SFNS-MSNH-Mission_Hills_fault-CFM4.x3d"></inline>
+<inline url="WTRA-SFNS-SFNV-Northridge_Hills_fault-truncated-CFM3.x3d"></inline>
+<inline url="WTRA-SFNS-SFNV-San_Fernando_fault-CFM4.x3d"></inline>
+<inline url="WTRA-SFNS-VRDM-Eagle_Rock_fault-steep-CFM5.x3d"></inline>
+<inline url="WTRA-SFNS-VRDM-Verdugo_fault-steep-CFM5.x3d"></inline>
+<inline url="WTRA-SGFZ-BTJG-San_Gabriel_splay-CFM4.x3d"></inline>
+<inline url="WTRA-SGFZ-MULT-Southern_San_Gabriel_fault-CFM4.x3d"></inline>
+<inline url="WTRA-SGFZ-PLMS-Northern_San_Gabriel_fault-CFM4.x3d"></inline>
+<inline url="WTRA-SGMF-SANC-San_Antonio_Canyon_fault-CFM4.x3d"></inline>
+<inline url="WTRA-SLCZ-SPMT-Lion_Canyon_fault-HBRD-CFM5.x3d"></inline>
+<inline url="WTRA-SMFZ-CCMG-Cucamonga_fault-CFM4.x3d"></inline>
+<inline url="WTRA-SMFZ-CCMG-Cucamonga_fault-alt1-CFM4.x3d"></inline>
+<inline url="WTRA-SMFZ-CSPC-Clamshell_Sawpit_Canyon_fault-CFM4.x3d"></inline>
+<inline url="WTRA-SMFZ-MULT-Sierra_Madre_fault-west-CFM4.x3d"></inline>
+<inline url="WTRA-SMFZ-SMCC-Sierra_Madre_fault-low-dip-CFM4.x3d"></inline>
+<inline url="WTRA-SMFZ-SMDD-Sierra_Madre_fault-low-dip-CFM4.x3d"></inline>
+<inline url="WTRA-SMFZ-SMDE-Sierra_Madre-Cucamonga_connector-CFM4.x3d"></inline>
+<inline url="WTRA-SMFZ-SMDE-Sierra_Madre_fault-low-dip-CFM4.x3d"></inline>
+<inline url="WTRA-SSFZ-MULT-Santa_Susana_fault-CFM1.x3d"></inline>
+<inline url="WTRA-SSRZ-MULT-Simi-Santa_Rosa_fault-listric-CFM5.x3d"></inline>
+<inline url="WTRA-SSRZ-OXNP-Bailey_fault-steep-CFM5.x3d"></inline>
+<inline url="WTRA-SYFZ-MULT-Santa_Ynez_fault-60dip-CFM5.x3d"></inline>
+<inline url="WTRA-USAV-INDH-Indian_Hill_fault-CFM5.x3d"></inline>
+<inline url="WTRA-USAV-SNJH-San_Jose_fault-CFM5.x3d"></inline>
+<inline url="WTRA-USAV-UPLD-Upland_fault-dipslip-CFM1.x3d"></inline>
+<inline url="WTRA-USAV-WLNC-Walnut_Creek_fault-CFM5.x3d"></inline>
+
+          </group>
+        </group>
+        
+        <!-- the rendering to both eyes -->
+        
+        <group render="true">
+            <group def='left'>
+                <shape>
+                    <appearance>
+                        <renderedtexture id="rtLeft" stereoMode="LEFT_EYE" update='ALWAYS' oculusRiftVersion="2"
+                                         dimensions='640 800 4' repeatS='false' repeatT='false'>
+                            <viewpoint use='vp' containerfield='viewpoint'></viewpoint>
+                            <background use='bgnd' containerfield='background'></background>
+                            <!--group USE='left' containerField="excludeNodes"></group-->
+                            <group use='theScene' containerfield="scene"></group>
+                        </renderedtexture>
+                        <composedshader>
+                            <field name='tex' type='SFInt32' value='0'></field>
+                            <field name='leftEye' type='SFFloat' value='1'></field>
+                            <shaderpart type='VERTEX'>
+                                attribute vec3 position;
+                                attribute vec2 texcoord;
+
+                                uniform mat4 modelViewProjectionMatrix;
+                                varying vec2 fragTexCoord;
+
+                                void main()
+                                {
+                                vec2 pos = sign(position.xy);
+                                fragTexCoord = texcoord;
+
+                                gl_Position = vec4((pos.x - 1.0) / 2.0, pos.y, 0.0, 1.0);
+                                //gl_Position = vec4(pos.xy / 4.0 + vec2(-0.75,0.75), 0.0, 1.0);
+                                }
+                            </shaderpart>
+                            <shaderpart def="frag" type='FRAGMENT'>
+                                #ifdef GL_ES
+                                precision highp float;
+                                #endif
+
+                                uniform sampler2D tex;
+                                uniform float leftEye;
+                                varying vec2 fragTexCoord;
+
+                                void main()
+                                {
+                                float distortionScale = 0.7; //0.685;
+                                //float distortionK[4] = float[](1.0, 0.22, 0.24, 0.0);
+                                vec2 lensCenter = vec2(0.151976495726, 0.0);
+                                if (leftEye == 0.0) {
+                                lensCenter.x *= -1.0;
+                                }
+
+                                vec2 theta = (fragTexCoord * 2.0) - 1.0;
+                                float rSq = theta.x * theta.x + theta.y * theta.y;
+                                vec2 rvec = theta * (1.0 + 0.22 * rSq + 0.24 * rSq * rSq); //+ 0.0 * rSq * rSq * rSq);
+                                vec2 texCoord = (distortionScale*rvec+(1.0-distortionScale)*lensCenter + 1.0) / 2.0;
+
+                                if (any(notEqual(clamp(texCoord, vec2(0.0, 0.0), vec2(1.0, 1.0)) - texCoord,
+                                vec2(0.0, 0.0)))) {
+                                //if (leftEye == 0.0) gl_FragColor = vec4(1.0,1.0,0.0,1.0);
+                                //else gl_FragColor = vec4(1.0,0.0,0.0,1.0);
+                                discard;
+                                }
+                                else {
+                                vec3 col = texture2D(tex, texCoord).rgb;
+                                gl_FragColor = vec4(col, 1.0);
+                                }
+                                //gl_FragColor = texture2D(tex, fragTexCoord);
+                                }
+                            </shaderpart>
+                        </composedshader>
+                    </appearance>
+                    <plane solid="false"></plane>
+                </shape>
+            </group>
+            <group def='right'>
+                <shape>
+                    <appearance>
+                        <renderedtexture id="rtRight" stereoMode="RIGHT_EYE" update='ALWAYS' oculusRiftVersion="2"
+                                         dimensions='640 800 4' repeatS='false' repeatT='false'>
+                            <viewpoint use='vp' containerfield='viewpoint'></viewpoint>
+                            <background use='bgnd' containerfield='background'></background>
+                            <group use='theScene' containerfield="scene"></group>
+                        </renderedtexture>
+                        <composedshader>
+                            <field name='tex' type='SFInt32' value='0'></field>
+                            <field name='leftEye' type='SFFloat' value='0'></field>
+                            <shaderpart type='VERTEX'>
+                                attribute vec3 position;
+                                attribute vec2 texcoord;
+
+                                uniform mat4 modelViewProjectionMatrix;
+                                varying vec2 fragTexCoord;
+
+                                void main()
+                                {
+                                vec2 pos = sign(position.xy);
+                                fragTexCoord = texcoord;
+
+                                gl_Position = vec4((pos.x + 1.0) / 2.0, pos.y, 0.0, 1.0);
+                                }
+                            </shaderpart>
+                            <shaderpart use="frag" type='FRAGMENT'>
+                            </shaderpart>
+                        </composedshader>
+                    </appearance>
+                    <plane solid="false"></plane>
+                </shape>
+            </group>
+        </group>
+    
+    
+    </Scene>
+</x3d>
+</body>
+</html>
